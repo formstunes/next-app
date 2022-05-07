@@ -3,11 +3,11 @@ export default function Home() {
   return (
     <div>
       Hello World.{' '}
-      <Link href="/about" as={process.env.BACKEND_URL + '/about'}>
+      <Link href="/about" >
         <a>About</a>
       </Link>
       <p>kjdfkjdslfkjldsjflds</p>
-    <Link href="/test"as={process.env.BACKEND_URL + '/test'}>fetch?</Link>
+    <Link href="/test">fetch????</Link>
     </div>
   )
 }
